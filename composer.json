@@ -1,0 +1,5 @@
+{
+    "require": {
+        "calderawp/convertkit-api": "^0.1.3"
+    }
+}

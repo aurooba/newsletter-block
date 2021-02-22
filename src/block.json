@@ -1,0 +1,45 @@
+{
+	"apiVersion": 2,
+	"name": "auroobamakes/newsletter-block",
+	"title": "Newsletter Block",
+	"category": "widgets",
+	"icon": "email-alt",
+	"description": "A native newsletter block that currently integrates with Convertkit.",
+	"textdomain": "newsletter-block",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"type": {
+			"type": "string"
+		},
+		"list": {
+			"type": "string"
+		},
+		"tag": {
+			"type": "string"
+		},
+		"showName": {
+			"type": "bool",
+			"default": "true"
+		},
+		"nameText": {
+			"type": "string",
+			"default": "Name"
+		},
+		"emailText" : {
+			"type": "string",
+			"default": "Email"
+		},
+		"confirmationText" : {
+			"type": "string"
+		},
+		"submitText": {
+			"type": "string",
+			"default": "Submit"
+		}
+	},
+	"editorScript": "file:../build/index.js",
+	"editorStyle": "file:../build/index.css",
+	"style": "file:../build/style-index.css"
+}

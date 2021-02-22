@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8305ad2ce168519bf6cb4d316f9bb55a",
+    "packages": [
+        {
+            "name": "calderawp/convertkit-api",
+            "version": "0.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CalderaWP/convertkit-api.git",
+                "reference": "9e8561f7daba3ee7282116bcca70c3c727ca9891"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CalderaWP/convertkit-api/zipball/9e8561f7daba3ee7282116bcca70c3c727ca9891",
+                "reference": "9e8561f7daba3ee7282116bcca70c3c727ca9891",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "calderawp\\convertKit\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Pollock",
+                    "homepage": "https://JoshPress.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WordPress API client for ConvertKit API v3",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/CalderaWP/convertkit-api/issues",
+                "source": "https://github.com/CalderaWP/convertkit-api/tree/0.1.3"
+            },
+            "time": "2017-06-27T15:58:53+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

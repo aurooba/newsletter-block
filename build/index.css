@@ -1,0 +1,44 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-auroobamakes-newsletter-block {
+  padding: 2px;
+}
+.wp-block-auroobamakes-newsletter-block label {
+  display: block;
+  font-size: var(--global--font-size-sm);
+  margin-bottom: calc(0.5 * var(--global--spacing-unit));
+  width: 100%;
+  font-weight: var(--form--label-weight);
+}
+.wp-block-auroobamakes-newsletter-block input[type=text] {
+  width: 100%;
+  border: var(--form--border-width) solid var(--form--border-color);
+  border-radius: var(--form--border-radius);
+  color: var(--form--color-text);
+  line-height: var(--global--line-height-body);
+  padding: var(--form--spacing-unit);
+  margin: 0 2px;
+  max-width: 100%;
+}
+.wp-block-auroobamakes-newsletter-block input[type=submit],
+.wp-block-auroobamakes-newsletter-block div.submit {
+  line-height: var(--button--line-height);
+  color: var(--button--color-text);
+  cursor: pointer;
+  font-weight: var(--button--font-weight);
+  font-family: var(--button--font-family);
+  font-size: var(--button--font-size);
+  background-color: var(--button--color-background);
+  border-radius: var(--button--border-radius);
+  border: var(--button--border-width) solid var(--button--color-background);
+  text-decoration: none;
+  padding: var(--button--padding-vertical) var(--button--padding-horizontal);
+}
+.wp-block-auroobamakes-newsletter-block div.submit {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=index.css.map*/
